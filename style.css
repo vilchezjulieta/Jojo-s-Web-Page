@@ -1,0 +1,212 @@
+body{
+	background-image: url("img/fondo.png");
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	
+}
+main{
+	background: rgba(255, 255, 255,0.2);
+	width:900px;
+	margin: auto;
+	padding: 20px;
+}
+p,h1,h2,h3,ol,li{
+
+	font-family: 'PT Mono', monospace;
+	text-align: justify;
+}
+
+table,td,th{
+	border-collapse: collapse;
+	border:1px #ff1fe9;
+	text-align: center;
+	border-radius: 10px;
+	border-style: dashed;
+	color: #af02b5;
+	background-color: pink;
+	/*#c01fff;*/
+/*	#be03fc;*/
+
+}*/
+ .source{
+ 	font-family:'Shadows Into Light', cursive;
+ }
+.center{
+	text-align: center;
+
+}
+
+a{
+	text-align: right;
+	text-decoration: none;
+	color: green;
+	background-color: salmon;
+
+}
+
+td, iframe{
+	padding: 20px;
+}
+
+a:hover{
+	background:grey;
+	font-size:18px;
+}
+
+a:active{
+	background-color:green;
+	font-size:18px;
+}
+
+a:visited{
+	color: purple;
+} 
+
+a:btn{
+	padding: auto;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.img1,.img2,.img4{
+    float: right;
+     margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.img3{
+    float: right;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+.body2{
+	background-image: url("img/fondo4.jpg");
+	background-size: 1400px;
+}
+
+.main2{
+	background: rgba(202, 237, 217,0.6);
+	width:1000px;
+	margin: auto;
+	padding: 20px;
+}
+
+.tabla{
+	/*border:1px solid;*/
+	width: 100px;
+	border-collapse: collapse;
+	border-style: dashed;
+}
+
+.h2,.td{
+	text-align: center;
+	font-family: 'Bangers', cursiva;
+
+}
+
+.h2{
+	color: red;
+}
+
+.i1{
+
+	position:fixed;
+	width:3px;
+	height:2px;
+	left:50%;
+	bottom:50%;
+	/*top:50%;*/
+	margin-left:500px;
+	margin-bottom:-100px;
+
+}
+.i2{
+
+	position:fixed;
+	width:3px;
+	height:2px;
+	left:50%;
+	bottom:42%;
+	margin-left:-675px;
+	margin-bottom:-100px;
+
+}	
+	
+/*.i3{
+
+	position: fixed;
+	width:3px;
+	height:2px;
+	left:50%;
+	bottom:50%;
+	top: 100%
+	margin-left:-675px;
+	margin-bottom:-100px;
+*/
+
+	
+
+/*display: block;
+margin-left: auto;
+margin-right: auto;*
+/*
+.parrafo p{
+
+	text-align: left;
+	margin-top: 20px;
+
+}*/
+
+
+.fot{
+	text-align: right;
+
+}
+
+.t2{
+
+
+
+
+}
+
+
+
+.titulo{
+	margin:0;
+	font-size:4em;
+	/*font-family: 'Bangers', cursiva;*/
+	/*font-family: 'Abril Fatface', cursive;*/
+	font-family: 'Modak', cursive;
+	text-align: center;
+	color:transparent;
+	font-weight: normal;
+	background: linear-gradient(
+		purple,
+		salmon,
+		purple,
+		salmon,
+		salmon,
+		salmon,
+		purple,
+		pink,
+		pink
+		
+	);
+	-webkit-background-clip:text;
+	position: relative;
+	&:after{
+	content:"Stands de JoJo's";
+	position: absolute;
+	width: 100%;
+	top: 3px;
+	left:3px;
+	color:#000;
+	z-index: -1;
+	   }
+
+
+}
+
+
